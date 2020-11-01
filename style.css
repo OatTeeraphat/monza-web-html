@@ -174,7 +174,28 @@ section {
     bottom: 0;
 }
 
+/* footer */
 
+}
+
+input[type=submit], input[type=button], a.button, .button, .pagination a:hover, .woocommerce .footer_bar .button, .woocommerce .footer_bar .button:hover, .woocommerce-page div.product form._t .button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .infinite_load_more, .post_share_text, #close_share, .widget_tag_cloud div a:hover, .mobile_menu_wrapper #close_mobile_menu, .mobile_menu_wrapper #mobile_menu_close.button{
+    background: #018041;
+    border-color: #018041;
+}
+
+.footer-social-icon{
+    width: 25px;
+}
+.footer-logo{
+    background-color: #018041;
+}
+.footer-logo img{
+    width: 250px;
+}
+#copyright a:hover, #footer a:hover, .social_wrapper ul li a:hover{
+    color: #fff;
+    text-decoration: none;
+}
 
 /* Modified Bootstrap*/
 
