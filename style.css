@@ -1,0 +1,52 @@
+body{
+    color:#fff;
+    background-color: #1A1B19;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    width: 100px;
+    height: 7px;
+    transform: skew(20deg);
+    background: #018041;
+}
+
+section {
+    margin-top: 60px;
+}
+
+.navbar {
+    background-color: #1A1B19;
+    top : 0;
+}
+
+.navbar .navbar-brand img{
+    width: 220px;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item.active a{
+    color: #018041;
+}
+
+.navbar .navbar-collapse .navbar-nav a{
+    color: #fff;
+    font-weight: 800;
+}
+
+.card{
+    border: 0;
+    color: #1A1B19;
+}
+/* .card .card-header{}
+.card .card-body{}
+.card .card-footer{} */
+
+
+.section_tagline{
+    color: #8D9199;
+}
+
+.section_title{
+    font-family: "Antique Olive Std", sans-serif;
+}
+
