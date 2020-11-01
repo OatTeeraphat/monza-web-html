@@ -78,7 +78,7 @@ section {
 {
     background: #444444;;
     width: 100%;
-    height: 145px;
+    height: 130px;
     border-radius: 15px;
     background-size: 100%;
 }
@@ -89,6 +89,17 @@ section {
     height: 350px;
     border-radius: 15px;
     background-size: 100%;
+
+}
+/* 
+    .home-blog-img {
+    background: #444444;
+    width: 100%;
+    height: 130px;
+    border-radius: 15px;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 /* product*/
 
@@ -134,3 +145,25 @@ section {
 .mt-5{
     margin-top: 5rem!important;
 }
+
+.btn-primary {
+    color: #018041;
+    border-color: #018041;
+}
+.btn-outline-primary {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #008040;
+    border-color: #008040;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #008040;
+    border-color: #008040;
+}
+
