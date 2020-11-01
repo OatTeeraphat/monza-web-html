@@ -40,6 +40,7 @@ section {
 }
 
 
+
 /* .card .card-header{}
 .card .card-body{}
 .card .card-footer{} */
@@ -48,6 +49,9 @@ section {
 
 .section_title{
     font-family: "Antique Olive Std", sans-serif;
+}
+.section_tagline{
+    color:#8D9199;
 }
 
 .home-quality .container-fluid{
@@ -86,6 +90,16 @@ section {
     border-radius: 15px;
     background-size: 100%;
 }
+/* product*/
+
+.card-img-top{
+   
+}
+.card-body{
+    bottom: 0;
+}
+
+
 
 /* Modified Bootstrap*/
 .btn-secondary  {
