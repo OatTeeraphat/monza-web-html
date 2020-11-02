@@ -1,3 +1,8 @@
+# see your current change
+```
+git status
+```
+
 # summit your work
 ```
 git commit -am '<message>'
