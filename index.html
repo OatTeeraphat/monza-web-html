@@ -50,15 +50,8 @@
         </div>
     </nav>
 
-    <section class="baner_youtube" style="background-image: url('./img/youtube-home.png'); width: 100vw; height: 100vh; background-size: 100%;">
-        <div class="plyr__video-embed" id="player">
-            <iframe
-              src="https://www.youtube.com/embed/bTqVqk7FSmY?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
-              allowfullscreen
-              allowtransparency
-              allow="autoplay"
-            ></iframe>
-          </div>
+    <section class="baner_youtube" style="background-image: url('./img/youtube-home.png');">
+       
     </section>
 
 <!--Search-->
@@ -518,17 +511,6 @@
         feather.replace()
     </script>
 
-    <script src="https://cdn.jsdelivr.net/gh/dacostafilipe/plyr@fix-yt-autoplay-v2/dist/plyr.polyfilled.min.js"></script>
-    <script>
-    const player = new Plyr('#player', {
-        autoplay: true,
-        controls: [],
-        muted: true, 
-        volume: 0,
-        youtube : { noCookie: false, rel: 0, showinfo: 0, iv_load_policy: 3, modestbranding: 1 }
-    });
-    window.player = player;
-    </script>
 
   </body>
 </html>

@@ -138,6 +138,14 @@ section {
     background:radial-gradient(45.11% 106.92% at 47.68% 54.05%, #0B0B0B 0%, rgba(0, 0, 0, 0) 0.01%, #0B0B0B 97.71%);
 }
 
+/* banner */
+
+.baner_youtube{
+    width: 100vw;
+    height: 100vh;
+    background-size: 100%;
+}
+
 /* home blog */
 
 .home-blog-img  
@@ -170,10 +178,6 @@ section {
 
 /* product*/
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 2b27cb50a6390e202d6477cfd4217b7ad659915b
 .card-body{
     bottom: 0;
 }
@@ -202,5 +206,36 @@ input[type=submit], input[type=button], a.button, .button, .pagination a:hover, 
 }
 
 /* Modified Bootstrap*/
+
+
+@media (max-width: 1199px) {
+    
+    .baner_youtube{
+        width: 100vw;
+        height: 500px;
+        background-size: 100%;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+
+@media (max-width: 767px) {
+
+}
+
+
+@media (max-width: 575px) { 
+
+    .baner_youtube{
+        width: 100vw;
+        height: 100vh;
+        background-size: 100%;
+    }
+
+}
 
 
