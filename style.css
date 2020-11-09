@@ -109,22 +109,24 @@ section {
 
 /* preload */
 
-.preload-fullpage{
-    position: absolute;
-    background: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    z-index: 1000;
-    top: 0;
-    left: 0;
+        .preload-fullpage{
+            position: absolute;
+            background: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+        }
+
+        .preload-fullpage-logo{
+            width: 75%;
+            max-width: 500px;
 }
-.preload-fullpage-logo{
-    width: 75%;
-    max-width: 500px;
-}
+
 
 
 /* home quality */
@@ -286,6 +288,3 @@ input[type=submit], input[type=button], a.button, .button, .pagination a:hover, 
     }
 }
 
-#navbar{
-    
-}
