@@ -227,6 +227,23 @@ input[type=submit], input[type=button], a.button, .button, .pagination a:hover, 
     color: #fff;
     text-decoration: none;
 }
+.bg_end_footer{
+    margin-top: 0;
+}
+.footer-part {
+    padding-left: 0;
+}
+
+/* manronty  */
+
+.masonry-column {
+    padding: 0 1px;
+  }
+  
+  .masonry-grid > div .thumbnail {
+    margin: 5px 1px;
+  }  
+
 
 
 /* Modified Bootstrap*/
@@ -295,6 +312,18 @@ input[type=submit], input[type=button], a.button, .button, .pagination a:hover, 
         height: 250px;
         border-radius: 15px;
         background-size: 100%;
+    }
+    .foot-part01{
+        padding-left: 5rem!important;
+    }
+    .foot-part02{
+        padding-left: 5rem!important;
+    }
+    .text_footer_end{
+        font-size: 12px;
+    }
+    .p1{
+        text-align: center;
     }
 }
 
