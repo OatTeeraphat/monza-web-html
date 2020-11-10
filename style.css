@@ -105,13 +105,17 @@ section {
     border-color: #008040;
 }
 
+.dropdown-menu.show{
+    width: calc(100% - 30px);
+
+}
 /* most in project */
 
 /* preload */
 
         .preload-fullpage{
             position: absolute;
-            background: red;
+            background: #000;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -224,6 +228,7 @@ input[type=submit], input[type=button], a.button, .button, .pagination a:hover, 
     text-decoration: none;
 }
 
+
 /* Modified Bootstrap*/
 
 
@@ -254,7 +259,12 @@ input[type=submit], input[type=button], a.button, .button, .pagination a:hover, 
     .h5{
         font-size: 16px;
     }
+
+    .footer-social strong{
+        font-size: 13px;
+    }
 }
+
 
 
 @media (max-width: 767px) {
