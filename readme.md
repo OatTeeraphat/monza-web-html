@@ -6,7 +6,7 @@ git status
 # summit your work
 ```
 git commit -am '<message>'
-git push origin master
+git push origin master 
 ```
 
 # if has confict
