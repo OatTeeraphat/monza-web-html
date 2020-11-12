@@ -233,6 +233,10 @@ input[type=submit], input[type=button], a.button, .button, .pagination a:hover, 
 .footer-part {
     padding-left: 0;
 }
+.home_footer{
+    background: black;
+    padding-top: 60px;
+}
 
 /* manronty  */
 
