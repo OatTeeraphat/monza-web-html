@@ -230,6 +230,7 @@ section {
 }
 .img-quality img{
     width: 100%;
+    min-width: 60vw;
 }
 .faded-left-right{
     position: absolute;
