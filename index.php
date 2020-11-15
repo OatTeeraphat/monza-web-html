@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./fonts.css">
     <link rel="stylesheet" href="./style.css">
 
-    <title>Hello, world!</title>
+    <title>MONZA Factory</title>
 
   </head>
   <body class="overflow-hidden">
