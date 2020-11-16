@@ -897,6 +897,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
 
+    <script type='text/javascript' src='js/plugins/jarallax.js'></script>
+    <script type='text/javascript' src='js/plugins/jarallax-video.js'></script>
 
     <script>
 
@@ -921,13 +923,6 @@
         });
 
     </script>
-
-    /////////
-
-    <script type='text/javascript' src='js/plugins/jarallax.js'></script>
-    <script type='text/javascript' src='js/plugins/jarallax-video.js'></script>
-
-    ////////
 
     <script>
         feather.replace()
