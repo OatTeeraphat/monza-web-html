@@ -60,9 +60,25 @@
         </div>
     </nav>
 
-    <section class="baner_youtube" style="background-image: url('./img/youtube-home.png');">
        
+    <!-- 
+        <section class="baner_youtube" style="background-image: url('./img/youtube-home.png');">
+                
+        </section>  
+     -->
+    
+ 
+    
+           <!-- Youtube Section -->
+
+    <section>
+        
+        <div class="baner_youtube" data-jarallax-video="https://www.youtube.com/watch?v=K2fhljO9V00" style="padding-top: 150px !important;text-align:center;height:800px;color:#ffffff;">    
+        </div>
+
     </section>
+
+     
 
 <!--Search-->
 
@@ -382,6 +398,10 @@
    
     </section>
 
+
+
+
+
     <section class="home_footer pb-0">
         <div class="container">
             <div class="row justify-content-between">
@@ -609,8 +629,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
     <script src="https://unpkg.com/imagesloaded@4.1.4/imagesloaded.pkgd.min.js"></script>
 
+    /////////
+
+    <script type='text/javascript' src='js/plugins/jarallax.js'></script>
+    <script type='text/javascript' src='js/plugins/jarallax-video.js'></script>
+
+    ////////
+
     <script>
         feather.replace()
+        $('.parallax').each(function(){
+    		var parallaxObj = $(this);
+    	
+            $(this).jarallax({
+		 		zIndex          : 0,
+		 		speed			: 0.1,
+		 		onCoverImage: function() {
+			        parallaxObj.css('z-index', 0);
+			    }
+		 	});
+		 });
     </script>
 
    <script>
