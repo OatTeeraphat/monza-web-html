@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./fonts.css?v=1789">
     <link rel="stylesheet" href="./style.css?v=1789">
 
-    <title>MONZA Factory</title>
+    <title>Monza Factory</title>
 
   </head>
   <body class="overflow-hidden">
@@ -120,9 +120,10 @@
         </div>
     </nav>
 
-    <div class="baner_youtube" style="background-image: url('./img/monza_cover_2.png');">
-       <div class="fade-box"></div>
+        
+    <div class="baner_youtube" data-jarallax-video="https://www.youtube.com/watch?v=K2fhljO9V00" style="padding-top: 150px !important;text-align:center;height:800px;color:#ffffff;">    
     </div>
+
 
 <!--Search-->
 
@@ -348,32 +349,32 @@
                     
                     <!-- Grid item -->
                     <div class="col-lg-4 col-md-6 grid-item">
-                        <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="https://res.cloudinary.com/mhmd/image/upload/v1579670060/grid-item-1_gdkusl.png" alt="">
+                        <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="./img/gallery_copy/Monza edit1-11.jpg" alt="">
                     </div>
                     
                     <!-- Grid item -->
                     <div class="col-lg-4 col-md-6 grid-item">
-                        <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="https://res.cloudinary.com/mhmd/image/upload/v1579670057/grid-item-2_ek540c.png" alt="">
+                        <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="./img/gallery_copy/ga2.jpg" alt="">
                     </div>
                     
                     <!-- Grid item -->
                     <div class="col-lg-4 col-md-6 grid-item">
-                        <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="https://res.cloudinary.com/mhmd/image/upload/v1579670057/grid-item-3_osmjje.png" alt="">
+                        <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="./img/gallery_copy/90148786_1100812883618507_8277114183753924608_o.jpg" alt="">
                     </div>
                     
                     <!-- Grid item -->
                     <div class="col-lg-4 col-md-6 grid-item">
-                        <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="https://res.cloudinary.com/mhmd/image/upload/v1579670059/grid-item-4_nfmiyt.png" alt="">
+                        <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="./img/gallery_copy/93581054_1122976304735498_7069285215939592192_o.jpg" alt="">
                     </div>
                     
                     <!-- Grid item -->
                     <div class="col-lg-4 col-md-6 grid-item">
-                        <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="https://res.cloudinary.com/mhmd/image/upload/v1579670057/grid-item-5_sft8ph.png" alt="">
+                        <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="./img/gallery_copy/94144124_1128734297493032_401308099027140608_o.jpg" alt="">
                     </div>
                     
                     <!-- Grid item -->
                     <div class="col-lg-4 col-md-6 grid-item">
-                        <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="https://res.cloudinary.com/mhmd/image/upload/v1579670052/grid-item-6_apvkno.png" alt="">
+                        <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="./img/gallery_copy/97852868_1151539381879190_6743407016191983616_n.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -407,7 +408,7 @@
                 <div class="blog-vdo col-12 col-lg-6">
                     <div class="row my-3">
                         <div class="col-12">
-                            <div class="home-blog-vdo" style="background-image: url(./img/blog01.png)">
+                            <div class="home-blog-vdo" style="background-image: url(./img/vdo_image\ 9.png)">
                         </div>
                         </div>
                         <div class="col-12 my-3 mx-2">
@@ -422,7 +423,7 @@
                 <div class="col-12 col-lg-6">
                     <div class="row " style="justify-content: center;">
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="home-blog-img my-3" style="background-image: url('./img/bolg02.png');">
+                            <div class="home-blog-img my-3" style="background-image: url('./img/blog_01.jpg');">
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-8 mt-0 mt-md-2 mb-4 pl-3 pl-md-0">
@@ -432,7 +433,7 @@
                     </div>
                     <div class="row " style="justify-content: center;">
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="home-blog-img my-3" style="background-image: url('./img/bolg03.png');">
+                            <div class="home-blog-img my-3" style="background-image: url('./img/blog_02.jpg');">
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-8 mt-0 mt-md-2 mb-4 pl-3 pl-md-0">
@@ -442,7 +443,7 @@
                     </div>
                     <div class="row " style="justify-content: center;">
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="home-blog-img my-3" style="background-image: url('./img/bolg04.png');">
+                            <div class="home-blog-img my-3" style="background-image: url('./img/blog_03.jpg');">
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-8 mt-0 mt-md-2 mb-4 pl-3 pl-md-0">
@@ -459,6 +460,10 @@
         </div>
    
     </section>
+
+
+
+
 
     <section class="home_footer pb-0">
 
@@ -917,8 +922,26 @@
 
     </script>
 
+    /////////
+
+    <script type='text/javascript' src='js/plugins/jarallax.js'></script>
+    <script type='text/javascript' src='js/plugins/jarallax-video.js'></script>
+
+    ////////
+
     <script>
         feather.replace()
+        $('.parallax').each(function(){
+    		var parallaxObj = $(this);
+    	
+            $(this).jarallax({
+		 		zIndex          : 0,
+		 		speed			: 0.1,
+		 		onCoverImage: function() {
+			        parallaxObj.css('z-index', 0);
+			    }
+		 	});
+		 });
     </script>
 
     <script>
