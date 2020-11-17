@@ -206,7 +206,7 @@ section {
 /* preload */
 
 .preload-fullpage {
-	position: absolute;
+	position: fixed;
 	background: #000;
 	display: -webkit-box;
 	display: -ms-flexbox;
