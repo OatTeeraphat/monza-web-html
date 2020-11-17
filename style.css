@@ -282,6 +282,10 @@ section {
 
 /* banner */
 
+.youtube_warpper{
+	overflow: hidden;
+}
+
 .baner_youtube {
 	position: relative;
 	width: 100%;
