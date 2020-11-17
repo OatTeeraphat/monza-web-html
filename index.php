@@ -137,7 +137,7 @@
 
     <section class="home_search">
 
-        <div class="container">
+        <div class="container" style="overflow: visible">
 
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
@@ -153,7 +153,7 @@
                             <button class="btn btn-secondary dropdown-toggle mb-2"  type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 SELECT BRAND
                             </button>
-                            <div class="dropdown-menu d-none" aria-labelledby="dropdownMenuButton" id="dropdownMenu1">
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dropdownMenu1">
                             <button class="dropdown-item" href="#">HONDA</button>
                             <button class="dropdown-item" href="#">IZUSU</button>
                             <button class="dropdown-item" href="#">TOYOTA</button>
@@ -164,7 +164,7 @@
                             <button class="btn btn-secondary dropdown-toggle mb-2" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 SELECT MODEL
                             </button>
-                            <div class="dropdown-menu d-none" aria-labelledby="dropdownMenuButton" id="dropdownMenu2">
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dropdownMenu2">
                             <button class="dropdown-item" href="#">MODEL 1</button>
                             <button class="dropdown-item" href="#">MODEL 2</button>
                             <button class="dropdown-item" href="#">MODEL 3</button>
@@ -174,7 +174,7 @@
                             <button class="btn btn-secondary dropdown-toggle mb-2" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 SELECT YEAR
                             </button>
-                            <div class="dropdown-menu d-none" aria-labelledby="dropdownMenuButton" id="dropdownMenu3">
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dropdownMenu3">
                             <button class="dropdown-item" href="#">2020</button>
                             <button class="dropdown-item" href="#">2021</button>
                             <button class="dropdown-item" href="#">2022</button>
