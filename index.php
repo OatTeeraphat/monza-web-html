@@ -127,8 +127,8 @@
     </div> -->
 
     <div class="baner_youtube" style="background-image: url('./img/youtube-home.png');">    
-        <video autoplay loop muted playsinline autobuffer class="baner_youtube_video" style="width: 120%; display: block; margin: 0px;" poster="https://monzafactory.herokuapp.com/img/monza_youtube.mp4">
-            <source src="https://monzafactory.herokuapp.com/img/monza_youtube.mp4" type="video/mp4">
+        <video autoplay loop muted playsinline autobuffer class="baner_youtube_video" poster="./img/monza_youtube2.mp4">
+            <source src="./img/monza_youtube2.mp4" type="video/mp4">
         </video>
     </div>
 
