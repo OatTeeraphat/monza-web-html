@@ -12,10 +12,10 @@
     <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <link rel="stylesheet" href="./fonts.css?v=1789">
-    <link rel="stylesheet" href="./style.css?v=1789">
+    <link rel="stylesheet" href="./fonts.css?v=<?php echo rand();?>">
+    <link rel="stylesheet" href="./style.css?v=<?php echo rand();?>">
 
-    <title>Hello, world!</title>
+    <title>Monza Factory</title>
 
   </head>
   <body class="overflow-hidden">
@@ -889,6 +889,15 @@
 
     </div>
 
+
+    <style>
+    section {
+        margin-top: 90px;
+        background-color: #1A1B19;
+        position: relative;
+        z-index: 2;
+    }
+    </style>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
