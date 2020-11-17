@@ -120,9 +120,14 @@
         </div>
     </nav>
 
+        
+    <!-- <div class="youtube_warpper">
+        <div class="baner_youtube" data-jarallax-video="https://www.youtube.com/watch?v=K2fhljO9V00" style="padding-top: 150px !important;text-align:center;height:800px;color:#ffffff;">    
+        </div>
+    </div> -->
 
-    <div class="baner_youtube">    
-        <video autoplay loop muted playsinline style="width: 100%; height: 100%; display: block; margin: 0px;" poster="https://monzafactory.herokuapp.com/img/monza_youtube.mp4">
+    <div class="baner_youtube" style="background-image: url('./img/youtube-home.png');">    
+        <video autoplay loop muted playsinline autobuffer class="baner_youtube_video" style="width: 120%; display: block; margin: 0px;" poster="https://monzafactory.herokuapp.com/img/monza_youtube.mp4">
             <source src="https://monzafactory.herokuapp.com/img/monza_youtube.mp4" type="video/mp4">
         </video>
     </div>
@@ -893,6 +898,15 @@
     </div>
 
 
+    <style>
+    section {
+        margin-top: 90px;
+        background-color: #1A1B19;
+        position: relative;
+        z-index: 2;
+    }
+    </style>
+
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
@@ -938,7 +952,6 @@
             $(this).jarallax({
 		 		zIndex          : 0,
 		 		speed			: 0.01,
-                keepImg         : false
 		 		onCoverImage: function() {
 			        parallaxObj.css('z-index', 0);
 			    }

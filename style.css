@@ -285,7 +285,15 @@ section {
 .youtube_warpper{
 	overflow: hidden;
 }
-
+.baner_youtube_video {
+    width: 110%;
+    height: auto;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transform: translateX(-5%) translateY(-5%);
+}
 .baner_youtube {
 	position: relative;
 	width: 100%;
@@ -550,6 +558,12 @@ a.button,
 
 
 /* Modified Bootstrap*/
+@media (max-width: 1599px) {
+	.baner_youtube_video {
+		width: 120%;
+		transform: translateX(-7.5%) translateY(-7.5%);
+	}
+}
 
 @media (max-width: 1199px) {
 	.baner_youtube {
@@ -560,6 +574,10 @@ a.button,
 }
 
 @media (max-width: 991px) {
+	.baner_youtube_video {
+		width: 175%;
+		transform: translateX(-17%) translateY(-5%);
+	}
 	.img-quality {
 		position: absolute;
 		bottom: 0;
@@ -584,7 +602,7 @@ a.button,
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
 	.navbar {
 		top: 10px;
 	}
@@ -616,11 +634,18 @@ a.button,
 	.faded-left-right {
 		padding: 55%;
 	}
+	.btn-language{
+		display: none;
+	}
 }
 
 @media (max-width: 575px) {
 	section {
 		margin-top: 45px;
+	}
+	.baner_youtube_video {
+		width: 220%;
+		transform: translateX(-25%) translateY(-5%);
 	}
 	.baner_youtube {
 		width: 100vw;
