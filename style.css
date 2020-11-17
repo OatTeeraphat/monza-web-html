@@ -648,9 +648,9 @@ a.button,
 		transform: translateX(-25%) translateY(-5%);
 	}
 	.baner_youtube {
-		width: 110vw;
+		width: 100%;
 		height: auto;
-		min-height: 400px;
+		min-height: 425px;
 		background-position: center;
 	}
 	.home_quality .container {
