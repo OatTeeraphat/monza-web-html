@@ -935,7 +935,7 @@
             $(this).jarallax({
 		 		zIndex          : 0,
 		 		speed			: 0.01,
-                keepImg         : 0
+                keepImg         : false
 		 		onCoverImage: function() {
 			        parallaxObj.css('z-index', 0);
 			    }
