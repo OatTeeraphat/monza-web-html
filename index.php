@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./fonts.css?v=1789">
     <link rel="stylesheet" href="./style.css?v=1789">
 
-    <title>Monza Factory</title>
+    <title>Hello, world!</title>
 
   </head>
   <body class="overflow-hidden">
@@ -897,8 +897,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
 
-    <script type='text/javascript' src='js/plugins/jarallax.js'></script>
-    <script type='text/javascript' src='js/plugins/jarallax-video.js'></script>
 
     <script>
 
@@ -924,6 +922,11 @@
 
     </script>
 
+
+    <script type='text/javascript' src='js/plugins/jarallax.js'></script>
+    <script type='text/javascript' src='js/plugins/jarallax-video.js'></script>
+
+
     <script>
         feather.replace()
         $('.parallax').each(function(){
@@ -931,7 +934,7 @@
     	
             $(this).jarallax({
 		 		zIndex          : 0,
-		 		speed			: 0.1,
+		 		speed			: 0.01,
 		 		onCoverImage: function() {
 			        parallaxObj.css('z-index', 0);
 			    }

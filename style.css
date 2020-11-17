@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 body {
 	color: #fff;
 	background-color: #1A1B19;
@@ -7,13 +14,17 @@ body {
 hr {
 	width: 100px;
 	height: 7px;
-	transform: skew(20deg);
+	-webkit-transform: skew(20deg);
+	    -ms-transform: skew(20deg);
+	        transform: skew(20deg);
 	background: #018041;
 }
 
 section {
 	margin-top: 90px;
 	background-color: #1A1B19;
+	position: relative;
+	z-index: 2;
 }
 
 
@@ -27,6 +38,8 @@ section {
 	background-color: #0f0f0f;
 	top: 0;
 	z-index: 99;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 	top: 45px;
 	font-size: 14px;
@@ -127,7 +140,8 @@ section {
 	color: #fff;
 	background-color: #222221;
 	border-color: #ffffff;
-	box-shadow: 0 0 0 0.2rem #008040;
+	-webkit-box-shadow: 0 0 0 0.2rem #008040;
+	        box-shadow: 0 0 0 0.2rem #008040;
 }
 
 .pt-5 {
@@ -186,7 +200,8 @@ section {
 .btn-language:active {
 	outline: none;
 	color: #fff;
-	box-shadow: none;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
 }
 
 
@@ -195,9 +210,15 @@ section {
 .preload-fullpage {
 	position: absolute;
 	background: #000;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	width: 100vw;
 	height: 100vh;
 	z-index: 1000;
@@ -253,6 +274,7 @@ section {
 	padding: 50%;
 	bottom: 0;
 	width: 105%;
+	background: -o-radial-gradient(60% 50%, 50% 120%, #0B0B0B 0%, rgba(0, 0, 0, 0) 0.01%, #0B0B0B 97.71%);
 	background: radial-gradient(50% 120% at 60% 50%, #0B0B0B 0%, rgba(0, 0, 0, 0) 0.01%, #0B0B0B 97.71%);
 	z-index: 1;
 }
@@ -336,7 +358,8 @@ section {
 	line-height: 1.1;
 	margin-bottom: 5px;
 	white-space: nowrap;
-	text-overflow: clip;
+	-o-text-overflow: clip;
+	   text-overflow: clip;
 	overflow: hidden;
 }
 
@@ -401,7 +424,8 @@ section {
 	font-weight: 800;
 	height: auto;
 	text-decoration: none !important;
-	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	        box-shadow: none !important;
 	color: #fff;
 	width: 100%;
 	text-align: left;
