@@ -121,7 +121,10 @@
     </nav>
 
         
-    <div class="baner_youtube" data-jarallax-video="./img/monza_youtube.mp4" style="padding-top: 150px !important;text-align:center;height:800px;color:#ffffff;">    
+    <div class="baner_youtube">    
+        <video autoplay loop muted playsinline style="width: 100%; height: 100%; display: block; margin: 0px;" poster="https://assets-global.website-files.com/5d3e265ac89f6a3e64292efc/5d48c7028f3da11303aaebf1_lattice-poster.jpg">
+            <source src="https://d3e54v103j8qbb.cloudfront.net/videos/lattice.mp4" type="video/mp4">
+        </video>
     </div>
 
 
