@@ -290,6 +290,7 @@ section {
 	max-height: 900px;
 	background-size: cover;
 	background-position: center;
+	background-attachment: fixed;
 }
 
 .fade-box {
