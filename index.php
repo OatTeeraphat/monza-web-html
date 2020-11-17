@@ -22,7 +22,7 @@
   <body>
 
     <div class="preload-fullpage" id="preload">
-        <img class="preload-fullpage-logo animate__animated animate__backInDown animate__flash" src="./src/monza-factory-logo.png" alt="">
+        <img class="preload-fullpage-logo mb-5 animate__animated animate__backInDown animate__flash" src="./src/monza-factory-logo.png" alt="">
     </div>
 
     <nav class="navbar-top">
