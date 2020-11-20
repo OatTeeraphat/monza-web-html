@@ -594,7 +594,7 @@ a.button,
 /* product_main */
 .product_cover {
 	position: relative;
-	padding-top: 40%;
+	padding-top: 37.5%;
 	background-size: cover;
 	background-position: right center;
 }
@@ -617,6 +617,17 @@ a.button,
 
 .masonry-grid>div .thumbnail {
 	margin: 5px 1px;
+}
+
+/* owl carousel */
+
+.owl-carousel .owl-dots {
+	margin-top: -5px !important;
+}
+.owl-theme .owl-dots 
+.owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span {
+	background-color: #018041;
 }
 
 
@@ -801,5 +812,4 @@ a.button,
 		font-size: 14px;
 	}
 }
-
 

@@ -333,68 +333,69 @@
 
     <section class="home_gallery">
 
-    <div class="container">
+        <div class="container">
 
-   
-        <div class="row">
-            <div class="col-12 text-center">
-                <div class="section_tagline">MONZA CARBON FIBRE</div>
-                <h2 class="section_title">GALLERY</h2>
-                <hr class="mb-4">
-                
-                <!-- 
-                    <img src="./img/gallery/image 3.png" alt="" style=" width: 100% ">
-                 -->
+    
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="section_tagline">MONZA CARBON FIBRE</div>
+                    <h2 class="section_title">GALLERY</h2>
+                    <hr class="mb-4">
+                    
+                    <!-- 
+                        <img src="./img/gallery/image 3.png" alt="" style=" width: 100% ">
+                    -->
+                </div>
             </div>
-        </div>
-           
-        <div class="pb-2 pb-md-5">
-            <div class="container text-center px-2 px-md-0">
-                <!-- Masonry grid -->
-                <div class="gallery-wrapper mansonry">
-                    <!-- Grid sizer -->
-                    <div class="grid-sizer col-lg-4 col-md-6"></div>
-                    
-                    <!-- Grid item -->
-                    <div class="col-lg-4 col-md-6 grid-item">
-                        <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="./img/gallery_copy/Monza edit1-11.jpg" alt="">
-                    </div>
-                    
-                    <!-- Grid item -->
-                    <div class="col-lg-4 col-md-6 grid-item">
-                        <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="./img/gallery_copy/ga2.jpg" alt="">
-                    </div>
-                    
-                    <!-- Grid item -->
-                    <div class="col-lg-4 col-md-6 grid-item">
-                        <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="./img/gallery_copy/90148786_1100812883618507_8277114183753924608_o.jpg" alt="">
-                    </div>
-                    
-                    <!-- Grid item -->
-                    <div class="col-lg-4 col-md-6 grid-item">
-                        <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="./img/gallery_copy/93581054_1122976304735498_7069285215939592192_o.jpg" alt="">
-                    </div>
-                    
-                    <!-- Grid item -->
-                    <div class="col-lg-4 col-md-6 grid-item">
-                        <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="./img/gallery_copy/94144124_1128734297493032_401308099027140608_o.jpg" alt="">
-                    </div>
-                    
-                    <!-- Grid item -->
-                    <div class="col-lg-4 col-md-6 grid-item">
-                        <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="./img/gallery_copy/97852868_1151539381879190_6743407016191983616_n.jpg" alt="">
+            
+            <div class="pb-2 pb-md-5">
+                <div class="container text-center px-2 px-md-0">
+                    <!-- Masonry grid -->
+                    <div class="gallery-wrapper mansonry">
+                        <!-- Grid sizer -->
+                        <div class="grid-sizer col-lg-4 col-md-6"></div>
+                        
+                        <!-- Grid item -->
+                        <div class="col-lg-4 col-md-6 grid-item">
+                            <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="./img/gallery_copy/Monza edit1-11.jpg" alt="">
+                        </div>
+                        
+                        <!-- Grid item -->
+                        <div class="col-lg-4 col-md-6 grid-item">
+                            <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="./img/gallery_copy/ga2.jpg" alt="">
+                        </div>
+                        
+                        <!-- Grid item -->
+                        <div class="col-lg-4 col-md-6 grid-item">
+                            <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="./img/gallery_copy/90148786_1100812883618507_8277114183753924608_o.jpg" alt="">
+                        </div>
+                        
+                        <!-- Grid item -->
+                        <div class="col-lg-4 col-md-6 grid-item">
+                            <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="./img/gallery_copy/93581054_1122976304735498_7069285215939592192_o.jpg" alt="">
+                        </div>
+                        
+                        <!-- Grid item -->
+                        <div class="col-lg-4 col-md-6 grid-item">
+                            <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="./img/gallery_copy/94144124_1128734297493032_401308099027140608_o.jpg" alt="">
+                        </div>
+                        
+                        <!-- Grid item -->
+                        <div class="col-lg-4 col-md-6 grid-item">
+                            <img class="img-fluid w-100 img-thumbnail shadow-sm rounded-0" src="./img/gallery_copy/97852868_1151539381879190_6743407016191983616_n.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="row justify-content-md-center mt-3 mb-3 px-4">
-            <button type="button" class="btn btn-lg btn-outline-primary col-12 col-md-6 col-lg-4">SEE MORE</button>
-        </div>
+            <div class="row justify-content-md-center mt-3 mb-3 px-4">
+                <button type="button" class="btn btn-lg btn-outline-primary col-12 col-md-6 col-lg-4">SEE MORE</button>
+            </div>
 
-    
+        
+            </div>
         </div>
-    </div>
+        
     </section>   
 
 
