@@ -602,7 +602,7 @@ a.button,
 /* product_main */
 .product_cover {
 	position: relative;
-	padding-top: 40%;
+	padding-top: 37.5%;
 	background-size: cover;
 	background-position: right center;
 }
@@ -648,7 +648,17 @@ a.button,
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: .25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+/* owl carousel */
+
+.owl-carousel .owl-dots {
+	margin-top: -5px !important;
+}
+.owl-theme .owl-dots 
+.owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span {
+	background-color: #018041;
 }
 
 
@@ -833,5 +843,4 @@ a.button,
 		font-size: 14px;
 	}
 }
-
 
