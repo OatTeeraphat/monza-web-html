@@ -11,6 +11,7 @@ hr {
 	background: #018041;
 }
 
+
 section {
 	margin-top: 90px;
 }
@@ -102,7 +103,7 @@ section {
 
 .btn-secondary {
 	color: #fff;
-	background-color: #222221;
+	background-color: #1b1b1a;
 	border-color: #ffffff;
 	width: 100%;
 }
@@ -117,17 +118,35 @@ section {
 .btn-secondary:not(:disabled):not(.disabled):active,
 .show>.btn-secondary.dropdown-toggle {
 	color: #fff;
-	background-color: #222221;
+	background-color: #1b1b1a;
 	border-color: #00733a;
 }
 
-.btn-secondary.focus,
-.btn-secondary:focus {
+.btn-secondary.focus, .btn-secondary:focus {
 	color: #fff;
-	background-color: #222221;
+	background-color: #1b1b1a;
 	border-color: #ffffff;
 	box-shadow: 0 0 0 0.2rem #008040;
 }
+
+.btn-third {
+	color: #fff;
+	background-color: #1b1b1a;
+	border-color: #ffffff;
+	width: 100%;
+	border: 0;
+}
+.btn-third:hover {
+	color: #fff;
+	background-color: #1b1b1a;
+	border-color: #1b1b1a;
+}
+.btn-secondary .btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(0,123,255,.25);
+}
+
+
 
 .pt-5 {
 	padding-top: 5rem!important;
@@ -165,8 +184,27 @@ section {
 	width: calc(100% - 30px);
 }
 
+.border-left-green{
+	border-left:7px solid #008040 ;
+
+}
 
 /* most in project */
+
+.input-search input{
+	border: 0;
+	border-bottom: 1px solid #fff !important;
+	padding: 20px 0;
+	padding-left: 35px;
+	background-color: transparent !important;
+	color: #fff !important;
+	outline: none;
+	box-shadow: none !important;
+}
+.input-search .fe {
+	position: absolute;
+	top: 5px;
+}
 
 
 /* nav */
@@ -220,6 +258,12 @@ section {
 	color: #8D9199;
 	margin-bottom: 15px;
 }
+.section_tagline_product{
+	color: #fff;
+	margin-bottom: 10px;
+
+}
+
 
 .home_quality .container {
 	padding: 60px 0 105px;
@@ -379,6 +423,9 @@ section {
 	padding: 15px;
 }
 
+.product_cover_text h2{
+	font-size: 55px;
+}
 
 /* collapse-list */
 
@@ -639,3 +686,21 @@ a.button,
 		text-align: center;
 	}
 }
+
+
+/* product_main */
+.product_cover {
+	position: relative;
+
+}
+	
+.product_cover_text{
+	position: absolute;
+    top: 50%;
+    right: 0;
+	left: 0;
+	margin:0 auto;
+	text-align: center;	
+}
+
+
