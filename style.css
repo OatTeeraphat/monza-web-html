@@ -353,6 +353,7 @@ section {
 	width: 100%;
 	height: 100%;
 	background: rgba(0, 0, 0, 0.5);
+	bottom: 0;
 }
 
 
@@ -590,6 +591,23 @@ a.button,
 	padding-top: 60px;
 }
 
+/* product_main */
+.product_cover {
+	position: relative;
+	padding-top: 40%;
+	background-size: cover;
+	background-position: right center;
+}
+	
+.product_cover_text{
+	position: absolute;
+    top: 50%;
+    right: 0;
+	left: 0;
+	margin:0 auto;
+	text-align: center;	
+}
+
 
 /* manronty  */
 
@@ -619,6 +637,10 @@ a.button,
 }
 
 @media (max-width: 991px) {
+	
+	.h5 {
+		font-size: 16px;
+	}
 	.baner_youtube_video {
 		width: 175%;
 		transform: translateX(-17%) translateY(-5%);
@@ -639,12 +661,21 @@ a.button,
 		border-radius: 15px;
 		background-size: 100%;
 	}
-	.h5 {
-		font-size: 16px;
-	}
 	.footer-social strong {
 		font-size: 13px;
 	}
+
+	.product_cover{
+		height: 500px;
+	}
+	.product_cover_text h2{
+		font-size: 45px;
+	}
+	.product_cover_text h4{
+		font-size: 20px;
+	}
+	
+
 }
 
 @media (max-width: 769px) {
@@ -682,6 +713,19 @@ a.button,
 	.btn-language{
 		display: none;
 	}
+
+	.product_cover{
+
+	}
+	.product_cover_text h2{
+		font-size: 30px;
+		margin-bottom: 0;
+	}
+	.product_cover_text h4{
+		font-size: 16px;
+	}
+	
+	
 }
 
 @media (max-width: 575px) {
@@ -740,22 +784,22 @@ a.button,
 	.p1 {
 		text-align: center;
 	}
-}
-
-
-/* product_main */
-.product_cover {
-	position: relative;
 
 }
-	
-.product_cover_text{
-	position: absolute;
-    top: 50%;
-    right: 0;
-	left: 0;
-	margin:0 auto;
-	text-align: center;	
+
+@media (max-width: 425px) {
+
+	.product_cover {
+		height: 350px;
+	}
+	.product_cover_text h2{
+		font-size: 26px;
+		margin-bottom: 0;
+	}
+
+	.product_cover_text h4{
+		font-size: 14px;
+	}
 }
 
 
