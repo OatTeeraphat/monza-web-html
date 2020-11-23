@@ -493,6 +493,17 @@ article p{
 	font-size: 55px;
 }
 
+
+/* dealer */
+
+.dealer-img {
+	background: #444444;
+	width: 100%;
+	height: 355px;
+	border-radius: 15px;
+	background-size: 100%;
+}
+
 /* collapse-list */
 
 
