@@ -820,7 +820,7 @@
     </script>
 
     <script>
-        
+
         $("#gallery1").on('click', function() {
 
             $.fancybox.open([
@@ -845,7 +845,16 @@
                     autoStart : true,
                     axis : 'x'
                 },
-                type : 'image'
+                type : 'image',
+                fitToView : false,
+                afterLoad : function(instance, current) {
+                    var pixelRatio = window.devicePixelRatio || 1;
+
+                    if ( pixelRatio > 1.5 ) {
+                        current.width  = current.width  / pixelRatio;
+                        current.height = current.height / pixelRatio;
+                    }
+                }
             });
 
         });
@@ -871,6 +880,9 @@
     .myFancyBox .fancybox-show-thumbs .fancybox-inner {
         right: 0;
         bottom: 95px;
+    }
+    .fancybox-inner{
+        padding: 100px;
     }
     </style>
     
