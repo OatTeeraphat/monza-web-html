@@ -1,12 +1,15 @@
 # see your current change
 ```
 git status
+
 ```
 
 # summit your work
 ```
+git add . 
 git commit -am '<message>'
 git push origin master 
+
 ```
 
 # if has confict
