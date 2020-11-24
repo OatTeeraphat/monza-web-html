@@ -4,6 +4,7 @@
      <!-- Required meta tags -->
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: 'unsafe-inline'; connect-src * 'unsafe-inline'; frame-src *;">
  
      <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
@@ -18,6 +19,9 @@
      <link rel="stylesheet" href="./style.css?v=1789">
  
      <title>Monza Factory</title>
+
+     <!-- page gallery -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
  
 </head>
 <body>
@@ -127,127 +131,138 @@
     <div class="product_cover" style="background-image: url('./img/product-main/cover_product.png');"> 
         <div class="fade-box"></div>
         <div class="product_cover_text">    
-            <h2 class="section_title">MONZA NEWS</h2>
+            <h2 class="section_title">GALLERY</h2>
             <h4>MONZA CARBON FIBRE PERFORMANCE</h4>
         </div>
     </div>
     
-    <section class="home_blog">
+    <section class="">
 
         <div class="container px-4 px-md-0">
 
-            <div class="row">
-                <div class="col-12 border-left-green ml-2 ml-md-3 mb-3 d-lg-none">
-                    <h5 class="section_tagline_product mb-0">Monza Product & Event</h5>
-                    <h2 class="section_title mt-2 mb-0">Highlight</h2>
+            <div class="row mb-2">
+                <div class="col-12 border-left-green ml-2 ml-md-3 mb-3">
+                    <h5 class="section_tagline_product mb-0">Product & Event</h5>
+                    <h2 class="section_title mt-2 mb-0">Video Gallery</h2>
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="blog-vdo col-12 col-lg-6">
-                    <div class="owl-carousel owl-theme">
-                        <div class="row my-3 item">
-                            <div class="col-12">
-                                <div class="home-blog-vdo" style="background-image: url(./img/vdo_image\ 9.png)"></div>
-                                <div class="my-3 mx-0 mx-md-2">
-                                    <h3 class="mb-2">All New D-Max</h3>
-                                    <p class="m-0 p-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti perspiciatis optio possimus dolore! Perferendis aliquid qui.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row my-3 item">
-                            <div class="col-12">
-                                <div class="home-blog-vdo" style="background-image: url(./img/vdo_image\ 9.png)"></div>
-                                <div class="my-3 mx-2">
-                                    <h3 class="mb-2">All New D-Max</h3>
-                                    <p class="m-0 p-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti perspiciatis optio possimus dolore! Perferendis aliquid qui.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6">
-                    <div class="row " style="justify-content: center;">
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="home-blog-img my-3" style="background-image: url('./img/blog_01.jpg');">
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-8 mt-0 mt-md-2 mb-4 pl-3 pl-md-0">
-                            <h4 class="my-2">Auto Salon 2020</h4>
-                            <p class="mb-md-2 p-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores </p>
-                        </div>
-                    </div>
-                    <div class="row " style="justify-content: center;">
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="home-blog-img my-3" style="background-image: url('./img/blog_02.jpg');">
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-8 mt-0 mt-md-2 mb-4 pl-3 pl-md-0">
-                            <h4 class="my-2">Auto Salon 2020</h4>
-                            <p class="mb-md-2 p-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores </p>
-                        </div>
-                    </div>
-                    <div class="row " style="justify-content: center;">
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="home-blog-img my-3" style="background-image: url('./img/blog_03.jpg');">
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-8 mt-0 mt-md-2 mb-4 pl-3 pl-md-0">
-                            <h4 class="my-2">Auto Salon 2020</h4>
-                            <p class="mb-md-2 p-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores </p>
-                        </div>
-                    </div>
-                </div>  
             </div>
             
-        </div>
-   
-    </section>
+            
+            <div class="row">
+                <div class="blog-vdo col-12 col-lg-12">
+                    <div class="owl-carousel owl-theme" id="owl-carousel1">
 
-    <section class="mt-4 mt-md-5">
+                        <div class="row mt-3 mb-5 item">
+                            <div class="col-12">
+                                <a data-fancybox href="http://www.youtube.com/watch?v=K2fhljO9V00&origin=*">
+                                    <div class="play-button">
+                                        <span class="triangle-right"></span>
+                                    </div>
+                                    <div class="home-blog-vdo" style="background-image: url(https://img.youtube.com/vi/K2fhljO9V00/maxresdefault.jpg)"></div>
+                                </a>
+                            </div>
+                        </div>
 
-        <div class="container px-4 px-md-0">
+                        <div class="row mt-3 mb-5 item">
+                            <div class="col-12">
+                                <a data-fancybox href="http://www.youtube.com/watch?v=NeelGMxvelQ&origin=*">
+                                    <div class="play-button">
+                                        <span class="triangle-right"></span>
+                                    </div>
+                                    <div class="home-blog-vdo" style="background-image: url(https://img.youtube.com/vi/NeelGMxvelQ/maxresdefault.jpg)"></div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3 mb-5 item">
+                            <div class="col-12 blog-vdo">
+                                <a data-fancybox href="http://www.youtube.com/watch?v=jO1WkUloMj0&origin=*">
+                                    <div class="play-button">
+                                        <span class="triangle-right"></span>
+                                    </div>
+                                    <div class="home-blog-vdo" style="background-image: url(https://img.youtube.com/vi/jO1WkUloMj0/maxresdefault.jpg)"></div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="row mt-3 mb-5 item">
+                            <div class="col-12">
+                                <a data-fancybox href="http://www.youtube.com/watch?v=TUtWPF0-Xis&origin=*">
+                                    <div class="play-button">
+                                        <span class="triangle-right"></span>
+                                    </div>
+                                    <div class="home-blog-vdo" style="background-image: url(https://img.youtube.com/vi/TUtWPF0-Xis/maxresdefault.jpg)"></div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="row mt-3 mb-5 item">
+                            <div class="col-12">
+                                <a data-fancybox href="http://www.youtube.com/watch?v=iH4Cox-So4g&origin=*">
+                                    <div class="play-button">
+                                        <span class="triangle-right"></span>
+                                    </div>
+                                    <div class="home-blog-vdo" style="background-image: url(https://img.youtube.com/vi/iH4Cox-So4g/maxresdefault.jpg)"></div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="row mb-2">
+                <div class="col-12 border-left-green ml-2 ml-md-3 mb-3">
+                    <h5 class="section_tagline_product mb-0">Product & Event</h5>
+                    <h2 class="section_title mt-2 mb-0">Photo Gallery</h2>
+                </div>
+            </div>
 
             <div class="row">
-                <div class="col-12 border-left-green ml-2 ml-md-3">
-                    <h5 class="section_tagline_product mb-0">Monza Product & Event</h5>
-                    <h2 class="section_title mt-2 mb-0">Lasted News</h2>
-                </div>
-            </div>
 
-            <div class="row mt-4 mt-md-5">
-                <div class="col-12 col-md-6 mb-4 mb-md-5">
-                    <div class="home-blog-vdo thumbnail-blog" style="background-image: url(./img/vdo_image\ 9.png)"></div>
-                    <div class="my-3 mx-0 mx-md-2">
-                        <h4 class="mb-2"><strong>All New D-Max</strong></h4>
-                        <p class="m-0 p-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti perspiciatis optio possimus dolore! Perferendis aliquid qui.</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 mb-4 mb-md-5">
-                    <div class="home-blog-vdo thumbnail-blog" style="background-image: url(./img/vdo_image\ 9.png)"></div>
-                    <div class="my-3 mx-0 mx-md-2">
-                        <h4 class="mb-2"><strong>All New D-Max</strong></h4>
-                        <p class="m-0 p-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti perspiciatis optio possimus dolore! Perferendis aliquid qui.</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 mb-4 mb-md-5">
-                    <div class="home-blog-vdo thumbnail-blog" style="background-image: url(./img/vdo_image\ 9.png)"></div>
-                    <div class="my-3 mx-0 mx-md-2">
-                        <h4 class="mb-2"><strong>All New D-Max</strong></h4>
-                        <p class="m-0 p-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti perspiciatis optio possimus dolore! Perferendis aliquid qui.</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 mb-4 mb-md-5">
-                    <div class="home-blog-vdo thumbnail-blog" style="background-image: url(./img/vdo_image\ 9.png)"></div>
-                    <div class="my-3 mx-0 mx-md-2">
-                        <h4 class="mb-2"><strong>All New D-Max</strong></h4>
-                        <p class="m-0 p-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti perspiciatis optio possimus dolore! Perferendis aliquid qui.</p>
+                <div class="blog-vdo col-12 col-lg-12">
+                    <div class="owl-carousel owl-theme" id="owl-carousel2">
+
+                        <div class="row mt-3 mb-5 item">
+                            <div class="col-12 col-md-4 mb-4">
+                                <a href="javascript:;" id="gallery1">
+                                    <div class="home-blog-vdo" style="background-image: url(https://source.unsplash.com/IvfoDk30JnI/1500x1000)"></div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-4 mb-4">
+                                <a href="javascript:;" id="gallery2">
+                                    <div class="home-blog-vdo" style="background-image: url(https://source.unsplash.com/IvfoDk30JnI/1500x1000)"></div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-4 mb-4">
+                                <a href="javascript:;" id="gallery3">
+                                    <div class="home-blog-vdo" style="background-image: url(https://source.unsplash.com/IvfoDk30JnI/1500x1000)"></div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-4 mb-4">
+                                <a href="javascript:;" id="gallery4">
+                                    <div class="home-blog-vdo" style="background-image: url(https://source.unsplash.com/IvfoDk30JnI/1500x1000)"></div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-4 mb-4">
+                                <a href="javascript:;" id="gallery5">
+                                    <div class="home-blog-vdo" style="background-image: url(https://source.unsplash.com/IvfoDk30JnI/1500x1000)"></div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-4 mb-4">
+                                <a href="javascript:;" id="gallery5">
+                                    <div class="home-blog-vdo" style="background-image: url(https://source.unsplash.com/IvfoDk30JnI/1500x1000)"></div>
+                                </a>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
 
         </div>
-
+   
     </section>
 
 
@@ -683,6 +698,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
    
     <script>
 
@@ -773,16 +790,89 @@
     </script>
 
     <script>
-        $('.owl-carousel').owlCarousel({
-            items   : 1,
-            loop    : true,
+        $('#owl-carousel1').owlCarousel({
+            items   : 2,
+            loop    : false,
             margin  : 10,
             dots    : true,
-            autoplay            : true,
+            autoplay            : false,
             autoplayTimeout     : 5000,
-            autoplayHoverPause  : true
+            responsive:{
+                0:{
+                    items:1
+                },
+                440:{
+                    items:2
+                },
+                1140:{
+                    items:2
+                }
+            }
+        })
+        $('#owl-carousel2').owlCarousel({
+            items   : 1,
+            loop    : false,
+            margin  : 10,
+            dots    : true,
+            autoplay            : false,
+            autoplayTimeout     : 5000,
         })
     </script>
+
+    <script>
+        
+        $("#gallery1").on('click', function() {
+
+            $.fancybox.open([
+                {
+                    src  : 'https://source.unsplash.com/IvfoDk30JnI/1500x1000',
+                    opts : {
+                    caption : 'First caption',
+                    thumb   : 'https://source.unsplash.com/IvfoDk30JnI/240x160'
+                    }
+                },
+                {
+                    src  : 'https://source.unsplash.com/0JYgd2QuMfw/1500x1000',
+                    opts : {
+                    caption : 'Second caption',
+                    thumb   : 'https://source.unsplash.com/0JYgd2QuMfw/240x160'
+                    }
+                }
+                ], {
+                baseClass: 'myFancyBox',
+                loop : true,
+                thumbs : {
+                    autoStart : true,
+                    axis : 'x'
+                },
+                type : 'image'
+            });
+
+        });
+
+    </script>
+
+    <style>
+    .myFancyBox .fancybox-inner{
+        width: 100%;
+    }
+    .myFancyBox .fancybox-thumbs {
+        top: auto;
+        width: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 95px;
+        padding: 10px 10px 5px 10px;
+        box-sizing: border-box;
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    .myFancyBox .fancybox-show-thumbs .fancybox-inner {
+        right: 0;
+        bottom: 95px;
+    }
+    </style>
     
     
 </body>
