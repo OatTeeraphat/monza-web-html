@@ -744,6 +744,23 @@ a.button,
 }
 
 
+.sv-slider-item img {
+	width: 100%;
+	height: 200px;
+  }
+  
+  .sv-slider .owl-thumbs {
+	white-space: nowrap;
+	overflow: auto;
+  }
+  
+  .owl-thumbs button>img {
+	width: 200px;
+	height: 100px;
+  }
+
+
+
 /* blog-vdo */
 
 .blog-vdo{
