@@ -121,7 +121,7 @@ a:hover, a:focus, a:active {
 
 .btn {
 	height: 55px;
-	font-size: 16px;
+	font-size: 20px;
 	min-width: calc(12em + .75rem + 2px);
 }
 
@@ -775,11 +775,27 @@ a.button,
 .owl-carousel .owl-nav button{
 
 }
-.owl-carousel .owl-nav button.owl-next{position: absolute;right: -45px;}
+.owl-carousel .owl-nav button.owl-next{position: absolute;right: -35px;}
 .owl-carousel .owl-nav button.owl-prev{left: -50px;position: absolute;}
 .owl-carousel .owl-nav button span{
     font-size: 38px;
+    top: 0;
+    position: absolute;
 }
+
+.owl-flag-dealer .owl-nav button:hover,
+.owl-flag-dealer .owl-nav button:active,
+.owl-flag-dealer .owl-nav button:focus{
+	outline: none;
+	color: #018041;
+}
+.owl-flag-dealer .owl-dots{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	z-index: 1000;
+}
+.owl-flag-dealer{padding-bottom: 45px;}
 
 /* carousel-product-post */
 
