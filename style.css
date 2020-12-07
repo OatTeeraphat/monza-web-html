@@ -603,13 +603,16 @@ textarea.form-massage::placeholder{
 	padding: 0;
 	margin: 0;
 	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .mansonry .img-thumbnail {
 	padding: 0;
 	border: none;
 	background: none;
-	transition: all 0.5s ease;
+	transition: all 0.3s ease;
 	cursor: pointer;
 }
 
@@ -749,7 +752,7 @@ a.button,
     left: 0;
     margin: 0 auto;
     text-align: center;
-
+}
 
 /* owl carousel 
 

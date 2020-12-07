@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"/>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
 
     <link rel="stylesheet" href="./fonts.css?v=<?php echo rand();?>">
     <link rel="stylesheet" href="./style.css?v=<?php echo rand();?>">
@@ -359,7 +361,9 @@
                     
                     <!-- Grid item -->
                     <div class="col-lg-4 col-md-6 grid-item">
-                        <img class="img-fluid img-thumbnail shadow-sm rounded-0" src="./img/gallery_copy/Monza edit1-11.jpg" alt="">
+                        <a data-fancybox href="./img/gallery_copy/Monza edit1-11.jpg">
+                            <img class="img-fluid img-thumbnail shadow-sm rounded-0" src="./img/gallery_copy/Monza edit1-11.jpg" alt="">
+                        </a>
                     </div>
                     
                     <!-- Grid item -->
@@ -924,7 +928,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    
     <script>
 
         $(function(){
