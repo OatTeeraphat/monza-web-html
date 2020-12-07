@@ -394,7 +394,7 @@
             </div>
         </div>
 
-        <div class="row justify-content-md-center mt-3 mb-3 px-4">
+        <div class="row justify-content-md-center mt-4 mb-5 px-4">
             <button type="button" class="btn btn-lg btn-outline-primary col-12 col-md-6 col-lg-4">SEE MORE</button>
         </div>
 
@@ -486,6 +486,10 @@
                     </div>
                 </div>
             </div>  
+        </div>
+
+        <div class="row justify-content-md-center mt-4 pt-4 mb-5 px-4">
+            <button type="button" class="btn btn-lg btn-outline-primary col-12 col-md-6 col-lg-4">SEE MORE</button>
         </div>
         
     </div>
@@ -929,7 +933,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-    
+
     <script>
 
         $(function(){
@@ -940,10 +944,10 @@
                 var isDesktop = $(window).width() >= 768;
                 var isMobile = $(window).width() < 768;
 
-                if( isDesktop && $(window).scrollTop() >= 120){
+                if( isDesktop && $(window).scrollTop() >= 100){
                     navbar.removeClass('navbar-hide');
                 }
-                else if( isMobile < 768 && $(window).scrollTop() >= 75){
+                else if( isMobile < 768 && $(window).scrollTop() >= 60){
                     navbar.removeClass('navbar-hide');
                 } else {
                     navbar.addClass('navbar-hide');

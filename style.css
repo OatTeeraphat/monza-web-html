@@ -135,7 +135,7 @@ a:hover, a:focus, a:active {
 .btn-secondary:hover {
 	color: #fff;
 	background-color: #008040;
-	border-color: #ffffff;
+	border-color: #008040;
 }
 
 .btn-secondary:not(:disabled):not(.disabled).active,
@@ -357,25 +357,26 @@ textarea.form-massage::placeholder{
 }
 
 .img-quality {
-	position: absolute;
-	bottom: 0%;
-	right: 0;
-	z-index: 0;
+    position: absolute;
+    bottom: 0%;
+    left: 33%;
+    z-index: 0;
+    overflow: hidden;
 }
 
 .img-quality img {
-	width: 100%;
-	min-width: 60vw;
+    width: 100%;
+    min-width: 120%;
 }
 
 .faded-left-right {
-	position: absolute;
-	padding: 50%;
-	bottom: 0;
-	width: 105%;
-	background: -o-radial-gradient(60% 50%, 50% 120%, #0B0B0B 0%, rgba(0, 0, 0, 0) 0.01%, #0B0B0B 97.71%);
-	background: radial-gradient(50% 120% at 60% 50%, #0B0B0B 0%, rgba(0, 0, 0, 0) 0.01%, #0B0B0B 97.71%);
-	z-index: 1;
+    position: absolute;
+    padding: 50%;
+    bottom: 0;
+    width: 110%;
+    background: -o-radial-gradient(60% 50%, 50% 120%, #0B0B0B 0%, rgba(0, 0, 0, 0) 0.01%, #0B0B0B 97.71%);
+    background: radial-gradient(43.5% 120% at 45% 80%, #0B0B0B 0%, rgba(0, 0, 0, 0) 0%, #0B0B0B 99%);
+    z-index: 1;
 }
 
 
@@ -524,9 +525,14 @@ textarea.form-massage::placeholder{
 	bottom: 0;
 	padding: 15px;
 }
+.product-box-item{
+	position: relative;
+	top: 0px;
+	transition: all 0.1s ease;
+}
 
-.product-box-item:hover img{
-	height: 100%;
+.product-box-item:hover, .product-box-item:active, .product-box-item:focus{
+	top: -3px;
 }
 
 .product_cover_text h2{
@@ -754,13 +760,12 @@ a.button,
     text-align: center;
 }
 
-/* owl carousel 
+/* owl carousel  */
 
 .owl-carousel .owl-dots {
-	position: relative;
-	top : -25px;
+	margin: 0;
 }
-*/
+
 
 .owl-theme .owl-dots 
 .owl-dot.active span, 
