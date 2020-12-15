@@ -759,6 +759,20 @@ a.button,
     margin: 0 auto;
     text-align: center;
 }
+.img-abount{
+	position: absolute;
+    bottom: 0%;
+    left: 50%;
+    z-index: 0;
+    overflow: hidden;
+}
+.img-abount2{
+	position: absolute;
+    bottom: 0%;
+    right: 50%;
+    z-index: 0;
+    overflow: hidden;
+}
 
 /* owl carousel  */
 
@@ -971,6 +985,23 @@ a.button,
 		width: 120%;
 		transform: translateX(-7.5%) translateY(-7.5%);
 	}
+	.abount_cover{
+		height: 500px;
+		position: relative;
+		padding-top: 37.5%;
+		background-size: cover;
+		background-position: right center;
+	}
+	.abount_cover_text h2{
+		font-size: 45px;
+	}
+	.abount_cover_text h4{
+		font-size: 20px;
+	}
+	.abount_cover_text hr{
+		margin-left: 0%;
+	}
+	
 	
 }
 
@@ -980,7 +1011,29 @@ a.button,
 		height: 500px;
 		background-size: cover;
 	}
-	
+	.abount_cover{
+		height: 500px;
+		position: relative;
+		padding-top: 37.5%;
+		background-size: cover;
+		background-position: right center;
+	}
+	.abount_cover_text h2{
+		font-size: 45px;
+	}
+	.abount_cover_text h4{
+		font-size: 20px;
+	}
+	.abount_cover_text hr{
+		margin-left: 0%;
+	}
+	.img-abount2{
+		bottom: -6%;
+	}
+	.product-post-Warning{
+		padding-left: 5%;
+
+	}
 }
 
 @media (max-width: 991px) {
@@ -1030,8 +1083,25 @@ a.button,
 	.lasted-post .col-lg-4 .thumbnail-blog{
 		height: 180px;
 	}
-
-		
+	.abount_cover{
+		height: 500px;
+		position: relative;
+		padding-top: 37.5%;
+		background-size: cover;
+		background-position: right center;
+	}
+	.abount_cover_text h2{
+		font-size: 45px;
+	}
+	.abount_cover_text h4{
+		font-size: 20px;
+	}
+	.abount_cover_text hr{
+		margin-left: 0%;
+	}	
+	.img-abount2{
+		bottom: 0%;
+	}
 
 }
 
@@ -1083,8 +1153,32 @@ a.button,
 		padding-top: 45px;
 	}
 	
+	.abount_cover{
+		height: 500px;
+		position: relative;
+		padding-top: 37.5%;
+		background-size: cover;
+		background-position: right center;
+	}
+	.abount_cover_text h2{
+		font-size: 45px;
+	}
+	.abount_cover_text h4{
+		font-size: 20px;
+	}
+	.abount_cover_text hr{
+		margin-left: 0%;
+	}
+	.section-abount{
+		margin-top: -6%;
+	}
+	.section-abount2{
+		margin-top: -6%;
+	}
+	.product-post-Warning{
+		padding-left: 14%;
 
-	
+	}
 }
 
 @media (max-width: 575px) {
@@ -1169,7 +1263,22 @@ a.button,
 	.push-cover{
 		padding-top: 75px;
 	}
-	
+	.abount_cover{
+		height: 500px;
+		position: relative;
+		padding-top: 37.5%;
+		background-size: cover;
+		background-position: right center;
+	}
+	.abount_cover_text h2{
+		font-size: 45px;
+	}
+	.abount_cover_text h4{
+		font-size: 20px;
+	}
+	.abount_cover_text hr{
+		margin-left: 0%;
+	}
 
 
 }
@@ -1178,5 +1287,91 @@ a.button,
 	.video-box .video-box--image{
 		height: 300px;
 	}
+	.abount_cover{
+		height: 500px;
+		position: relative;
+		padding-top: 37.5%;
+		background-size: cover;
+		background-position: right center;
+	}
+	.abount_cover_text h2{
+		font-size: 35px;
+	}
+	.abount_cover_text h4{
+		font-size: 20px;
+	}
+	.abount_cover_text hr{
+		margin-left: 30%;
+	}
+	.img-abount{
+		left: 0!important;
+		height: 135%;
+		position: absolute;
+	}
+	.img-abount2{
+		right: 0!important;
+		height: 100%;
+		position: absolute;
+	}
+	.section-abount2{
+		left: 0%!important;
+	}
+	.faded-img{
+		position: absolute;
+		padding: 50%;
+		bottom: 0;
+		width: 110%;
+		background: radial-gradient(92% 80% at 50% 90%, #0B0B0B 0%, rgba(0, 0, 0, 0) 0%, #0B0B0B 100%);
+		z-index: 1;
+	}
+
+	.faded-img2{
+		position: absolute;
+		padding: 50%;
+		bottom: 0;
+		width: 110%;
+		background: radial-gradient(100% 70% at 50% 50%, #0B0B0B 0%, rgba(0, 0, 0, 0) 0%, #0B0B0C 100%);
+		z-index: 1;
+	}
+	.product-post-box-size{
+		padding-left: 10%;
+		font-size: 13px;
+		margin: 0;
+
+	}
+	.product-post-body{
+		padding-left: 10%;
+		font-size: 13px;
+		margin: 0;
+
+	}
+	.product-post-Carbon-Spac{
+		padding-left: 10%;
+		font-size: 13px;
+		margin: 0;
+
+	}
+	.product-post-Warning{
+		padding-left: 21%;
+		font-size: 13px;
+		margin: 0;
+	}
+	.product-post-box-size-top{
+		font-size: 16px!important;
+		width: 130px!important;
+		
+	}
+	.product-post-body-top{
+		font-size: 16px!important;
+		width: 130px!important;
+	}
+	.product-post-Carbon-Spac-top{
+		font-size: 16px!important;
+		width: 130px!important;
+	}
+	.product-post-Warning-top{
+		font-size: 16px!important;
+	}
+
 }
 
